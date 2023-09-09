@@ -9,7 +9,7 @@ describe('shout(string)', function() {
 
 describe('whisper(string)', function() {
   it('receives one argument and returns it in all lowercase', function() {
-    expect(whisper('hello')).toEqual('hello');
+    expect(whisper('HELLO')).toEqual('hello');
   })
 })
 
